@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="18" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG-Suite" duration-ms="88" started-at="2017-04-22T02:31:31Z" finished-at="2017-04-22T02:31:31Z">
+    <groups>
+      <group name="pets">
+        <method signature="TestNGAnnotations.test1()[pri:0, instance:testngtests.TestNGAnnotations@1810399e]" name="test1" class="testngtests.TestNGAnnotations"/>
+        <method signature="TestNGGroup.cats()[pri:0, instance:testngtests.TestNGGroup@4439f31e]" name="cats" class="testngtests.TestNGGroup"/>
+        <method signature="TestNGGroup.dogs()[pri:0, instance:testngtests.TestNGGroup@4439f31e]" name="dogs" class="testngtests.TestNGGroup"/>
+        <method signature="TestNGGroup.fish()[pri:0, instance:testngtests.TestNGGroup@4439f31e]" name="fish" class="testngtests.TestNGGroup"/>
+      </group> <!-- pets -->
+    </groups>
+    <test name="TestNG-Test" duration-ms="88" started-at="2017-04-22T02:31:31Z" finished-at="2017-04-22T02:31:31Z">
+      <class name="testngtests.TestNGAnnotations">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testngtests.TestNGAnnotations@1810399e]" name="test1" duration-ms="18" started-at="2017-04-21T21:31:31Z" finished-at="2017-04-21T21:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testngtests.TestNGAnnotations -->
+      <class name="testngtests.TestNGGroup">
+        <test-method status="PASS" signature="cats()[pri:0, instance:testngtests.TestNGGroup@4439f31e]" name="cats" duration-ms="2" started-at="2017-04-21T21:31:31Z" finished-at="2017-04-21T21:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cats -->
+        <test-method status="PASS" signature="dogs()[pri:0, instance:testngtests.TestNGGroup@4439f31e]" name="dogs" duration-ms="2" started-at="2017-04-21T21:31:31Z" finished-at="2017-04-21T21:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dogs -->
+        <test-method status="PASS" signature="fish()[pri:0, instance:testngtests.TestNGGroup@4439f31e]" name="fish" duration-ms="2" started-at="2017-04-21T21:31:31Z" finished-at="2017-04-21T21:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fish -->
+      </class> <!-- testngtests.TestNGGroup -->
+    </test> <!-- TestNG-Test -->
+  </suite> <!-- TestNG-Suite -->
+</testng-results>

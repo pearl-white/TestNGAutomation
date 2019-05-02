@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG-Suite]">
+  <test name="TestNG-Test(failed)">
+    <classes>
+      <class name="testngtests.TestNGPrioritizing">
+        <methods>
+          <include name="one"/>
+          <include name="two"/>
+        </methods>
+      </class> <!-- testngtests.TestNGPrioritizing -->
+      <class name="testngtests.TestNGAssertions">
+        <methods>
+          <include name="softAssertionTest"/>
+        </methods>
+      </class> <!-- testngtests.TestNGAssertions -->
+    </classes>
+  </test> <!-- TestNG-Test(failed) -->
+</suite> <!-- Failed suite [TestNG-Suite] -->
