@@ -10,32 +10,29 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestNGAnnotations {
-	
+public class TestNGAnnotations { // comment added to see the changes.
+
 	@BeforeSuite
-	public void beforeSuite(){
+	public void beforeSuite() {
 		System.out.println("BeforeSuite");
 	}
 
 	@BeforeTest
-	public void beforeTest(){
+	public void beforeTest() {
 		System.out.println("BeforeTest");
 	}
-	
-	
+
 	@BeforeClass
-	public void beforeClass(){
+	public void beforeClass() {
 		System.out.println("BeforeClass");
 	}
-	
-	
-	
+
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("BeforeMethod");
 	}
 
-	@Test(groups={"pets"})
+	@Test(groups = { "pets" })
 	public void test1() {
 		System.out.println("Test1");
 	}
@@ -49,20 +46,19 @@ public class TestNGAnnotations {
 	public void afterMethod() {
 		System.out.println("AfterMethod");
 	}
-	
-	
+
 	@AfterClass
-	public void afterClass(){
+	public void afterClass() {
 		System.out.println("AfterClass");
 	}
-	
+
 	@AfterTest
-	public void afterTest(){
+	public void afterTest() {
 		System.out.println("AfterTest");
 	}
-	
+
 	@AfterSuite
-	public void afterSuite(){
+	public void afterSuite() {
 		System.out.println("AfterSuite");
 	}
 }
